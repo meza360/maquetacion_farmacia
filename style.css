@@ -1,0 +1,59 @@
+body {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header {
+	width: 100%;
+	backdrop-filter: blur(15px);
+}
+
+h1 {
+	background-blend-mode: darken;
+	color: black;
+	padding: 5%;
+}
+
+label {
+	font-size: medium;
+	font-weight: bold;
+}
+
+.busqueda {
+	border-radius: 50%;
+	align-items: center;
+	text-align: center;
+	backdrop-filter: blur(10px);
+	padding: 5%;
+}
+
+form {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: white;
+}
+
+section {
+	padding-top: 2%;
+	background-image: url("images/farmacia.jpg");
+	background-attachment: fixed;
+}
+
+.nav {
+	padding: 1%;
+	background-color: lightblue;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+li {
+	padding: 2%;
+}
+
+li:hover {
+	border-style: solid 2px;
+	border-radius: 50%;
+	background-color: cornsilk;
+}
