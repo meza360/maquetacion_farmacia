@@ -14,6 +14,9 @@ h1 {
 	color: black;
 	padding: 5%;
 }
+h2 {
+	text-align: center;
+}
 
 label {
 	font-size: medium;
@@ -195,4 +198,60 @@ li:hover {
 .contact .contact-map iframe {
 	width: 100%;
 	height: 450px;
+}
+
+.carrito {
+	padding: 5%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.botones {
+	align-items: center;
+}
+
+.boton {
+	border-color: black;
+	padding: 2%;
+	margin: 10%;
+	display: block;
+	color: black;
+	background-color: forestgreen;
+	border-radius: 10px;
+}
+.boton:hover {
+	border-color: black;
+	color: black;
+	background-color: white;
+	-webkit-transition: 0.2s;
+	-webkit-transform: translatex(10px);
+}
+
+.carta {
+	background-color: white;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 20%;
+	width: 30%;
+	height: 450px;
+	border: 5px solid;
+}
+
+.med {
+	background-color: whitesmoke;
+	align-items: center;
+	width: fit-content;
+}
+.informacion {
+	background-color: whitesmoke;
+	align-items: center;
+}
+.checkout {
+	padding: 1%;
+	background-color: whitesmoke;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
