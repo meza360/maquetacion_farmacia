@@ -312,3 +312,126 @@ main {
 	flex-direction: column;
 	align-items: center;
 }
+
+/*
+elementos especificos de nosotros.html
+*/
+.nosotros-div1 {
+	margin: 45px;
+	padding: 2px;
+	background-image: none;
+}
+
+.nosotros1 {
+	background-image: url("images/nosotros1.png");
+	backdrop-filter: blur(10px);
+	background-size: cover;
+	min-height: 500px;
+}
+
+.nosotros1 p {
+	min-height: 50%;
+	text-align: justify;
+	font-size: xx-large;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nosotros1 h2 {
+	min-height: 50%;
+	text-align: center;
+	font-size: xx-large;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nosotros2 {
+	background-image: url("images/umg.png");
+	background-color: rgb(41, 114, 182);
+	background-size: 30%;
+	background-position-x: left;
+	background-position-y: center;
+	min-height: 600px;
+}
+.nosotros-articulo {
+	width: 50%;
+	margin-left: 50%;
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+	justify-items: right;
+}
+
+.nosotros2 p {
+	min-height: 50%;
+	font-size: xx-large;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: justify;
+}
+
+.nosotros2 h2 {
+	min-height: 50%;
+	font-size: xx-large;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+}
+.nosotros3 {
+	background-image: url("images/nosotros1.png");
+	background-size: cover;
+	min-height: 600px;
+}
+
+.nosotros3-articulo1 {
+	background-color: rgb(41, 114, 182);
+	background-size: 30%;
+	background-position-x: left;
+	background-position-y: center;
+	min-height: 600px;
+}
+
+.nosotros3-equipo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.nosotros3-equipo div {
+	width: 20%;
+	height: 500px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.nosotros3-equipo img {
+	width: 80%;
+	height: 75%;
+}
+
+.footer-sintetico {
+	margin-top: 2%;
+	padding: 2%;
+	background-color: lightgoldenrodyellow;
+	min-height: 50px;
+}
+
+.footer-sintetico p {
+	font-weight: bold;
+}
+.social {
+	margin: 2%;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+}
+/*
+.footer-sintetico div {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #ff6f61;
+	display: inline-flex;
+}
+*/
